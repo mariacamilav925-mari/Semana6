@@ -1,0 +1,14 @@
+pregunta1:
+respuesta:b
+
+
+pregunta2:
+respuesta:b
+
+
+pregunta3:
+respuesta:b
+
+
+pregunta4:
+respuesta:c
