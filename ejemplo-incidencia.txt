@@ -1,0 +1,20 @@
+pregunta8:
+respuesta:
+
+app.post('/incidencia', (req, res) => {
+  const tipo = req.body.tipo;
+  const descripcion = req.body.descripcion;
+  res.json({
+    mensaje: "Incidencia registrada",
+    tipo: tipo,
+    descripcion: descripcion
+  });
+});
+
+
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta varias luces apagadas en el parque principal"
+}
+
+http://localhost:3000/incidencia
