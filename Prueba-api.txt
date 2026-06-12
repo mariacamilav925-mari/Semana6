@@ -1,0 +1,26 @@
+pregunta7:
+respuesta:
+
+Prueba de recepción de datos
+
+Petición enviada:
+- Método: POST
+- URL: http://localhost:3000/registro
+- Cuerpo JSON enviado:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Datos recibidos correctamente",
+  "datos": {
+    "nombre": "Maria",
+    "mensaje": "Hola comunidad"
+  }
+}
+
+Explicación:
+El servidor recibe la información en formato JSON, la lee usando req.body y devuelve la misma información confirmando que se recibió correctamente.
+``
